@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070912" />
+  <meta name="description" content="Вертекс-ИТ — поставки компьютеров, моноблоков, мониторов, периферии и серверного оборудования в Челябинске и по всей России. Подбор, доставка, монтаж, поддержка." />
+  <title>Вертекс-ИТ — поставки компьютерной техники | Челябинск</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Scroll progress -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="Вертекс-ИТ — на главную">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 9L22 36L38 9" stroke="url(#lg)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="22" cy="9" r="3.5" fill="#43E8C0"/>
+            <defs><linearGradient id="lg" x1="6" y1="9" x2="38" y2="36" gradientUnits="userSpaceOnUse"><stop stop-color="#8B6CFF"/><stop offset="1" stop-color="#43E8C0"/></linearGradient></defs>
+          </svg>
+        </span>
+        <span class="logo__text">ВЕРТЕКС<span>-ИТ</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#catalog" class="nav__link">Каталог</a>
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#portfolio" class="nav__link">Проекты</a>
+        <a href="#about" class="nav__link">О компании</a>
+        <a href="#faq" class="nav__link">Вопросы</a>
+        <a href="#contact" class="btn btn--primary btn--small nav__cta">Запросить расчёт</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+      <div class="grid-bg" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="badge reveal">
+            <span class="badge__dot"></span>
+            Поставки IT-техники · Челябинск · вся Россия
+          </div>
+
+          <h1 class="hero__title reveal">
+            Оснащаем бизнес<br />
+            <span class="gradient-text">техникой, которая работает</span>
+          </h1>
+
+          <p class="hero__text reveal">
+            Компьютеры, моноблоки, мониторы, периферия и серверные решения.
+            Подберём конфигурацию, привезём, установим и возьмём на поддержку.
+          </p>
+
+          <div class="hero__actions reveal">
+            <a href="#contact" class="btn btn--primary btn--large">
+              Запросить расчёт
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#catalog" class="btn btn--ghost btn--large">
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="3" width="6" height="6" rx="1.4" stroke="currentColor" stroke-width="1.5"/><rect x="11" y="3" width="6" height="6" rx="1.4" stroke="currentColor" stroke-width="1.5"/><rect x="3" y="11" width="6" height="6" rx="1.4" stroke="currentColor" stroke-width="1.5"/><rect x="11" y="11" width="6" height="6" rx="1.4" stroke="currentColor" stroke-width="1.5"/></svg>
+              Смотреть каталог
+            </a>
+          </div>
+
+          <div class="hero__stats reveal">
+            <div class="stat"><strong data-count="5000">0</strong><span>+</span><small>позиций<br />в наличии</small></div>
+            <div class="stat"><strong data-count="15">0</strong><span>лет</span><small>на рынке<br />поставок</small></div>
+            <div class="stat"><strong data-count="200">0</strong><span>+</span><small>компаний<br />наших клиентов</small></div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="visual-orbit visual-orbit--outer"></div>
+          <div class="visual-orbit visual-orbit--inner"></div>
+
+          <div class="config-card">
+            <div class="config-card__top">
+              <span class="window-dots"><i></i><i></i><i></i></span>
+              <span class="config-card__title">спецификация / заказ № 1842</span>
+            </div>
+            <div class="config-card__head">
+              <div><small>Рабочие места</small><strong>Система «Офис 120»</strong></div>
+              <span class="stock-badge">В наличии</span>
+            </div>
+            <div class="config-list">
+              <div class="config-row"><span class="config-row__icon">▣</span><span class="config-row__name">Компьютер Core i7 / 32 ГБ</span><b>48 шт</b></div>
+              <div class="config-row"><span class="config-row__icon">▤</span><span class="config-row__name">Монитор 27″ 4K IPS</span><b>48 шт</b></div>
+              <div class="config-row"><span class="config-row__icon">⌨</span><span class="config-row__name">Клавиатура + мышь</span><b>48 шт</b></div>
+              <div class="config-row"><span class="config-row__icon">▥</span><span class="config-row__name">Серверная стойка 42U</span><b>1 шт</b></div>
+            </div>
+            <div class="config-card__bottom">
+              <span>Срок поставки: <b>5 дней</b></span>
+              <span class="config-card__total">4 820 000 ₽</span>
+            </div>
+          </div>
+
+          <div class="float-chip float-chip--one"><span class="chip-icon">✓</span> Готово к отгрузке</div>
+          <div class="float-chip float-chip--two"><span class="chip-icon">▤</span> Склад в Челябинске</div>
+          <div class="float-chip float-chip--three"><span class="chip-icon">◇</span> Гарантия 3 года</div>
+          <div class="float-badge"><span class="pulse"></span> 98% поставок в срок</div>
+        </div>
+      </div>
+
+      <a href="#catalog" class="scroll-hint" aria-label="Прокрутите вниз"><span></span></a>
+    </section>
+
+    <!-- Brands marquee -->
+    <section class="tech" aria-label="Бренды, с которыми мы работаем">
+      <div class="tech__track">
+        <div class="tech__group">
+          <span>Lenovo</span><span>ASUS</span><span>HP</span><span>Dell</span><span>Acer</span><span>LG</span><span>Samsung</span><span>Intel</span><span>AMD</span><span>NVIDIA</span><span>Cisco</span><span>APC</span><span>MSI</span><span>Fujitsu</span>
+        </div>
+        <div class="tech__group" aria-hidden="true">
+          <span>Lenovo</span><span>ASUS</span><span>HP</span><span>Dell</span><span>Acer</span><span>LG</span><span>Samsung</span><span>Intel</span><span>AMD</span><span>NVIDIA</span><span>Cisco</span><span>APC</span><span>MSI</span><span>Fujitsu</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog -->
+    <section class="section services" id="catalog">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Каталог техники</span>
+            <h2 class="section-title">Всё для рабочего места <span class="gradient-text">и серверной</span></h2>
+          </div>
+          <p class="section-lead">Собираем поставки под вашу задачу — от одного компьютера до оснащения целого дата-центра.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="11" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 19h8M12 15v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <span class="service-card__num">01</span>
+            <h3>Компьютеры и ноутбуки</h3>
+            <p>Офисные ПК, рабочие станции и ноутбуки для сотрудников. Сборка под конкретные задачи.</p>
+            <ul><li>Системные блоки</li><li>Ноутбуки</li><li>Сборка под задачу</li></ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M9 21h6m-3-4v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <span class="service-card__num">02</span>
+            <h3>Моноблоки</h3>
+            <p>Готовые решения для офиса и точки продаж. Экраны 21,5–34″, сенсорные варианты и крепления.</p>
+            <ul><li>21,5–34″</li><li>Сенсорные</li><li>VESA-крепление</li></ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="13" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 21h8m-4-4v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6 9h5" stroke="currentColor" stroke-width="1.4" opacity=".6"/></svg>
+            </div>
+            <span class="service-card__num">03</span>
+            <h3>Мониторы</h3>
+            <p>IPS-панели, 4K и специализированные экраны для офиса, дизайна и работы с графикой.</p>
+            <ul><li>24–49″</li><li>4K / 5K</li><li>Двойные стойки</li></ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M7 7V5h10v2M7 12h.01M10 12h.01M13 12h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <span class="service-card__num">04</span>
+            <h3>Периферия и МФУ</h3>
+            <p>Клавиатуры, мыши, гарнитуры, веб-камеры, принтеры и расходные материалы для офиса.</p>
+            <ul><li>Устройства ввода</li><li>Печать и сканирование</li><li>Аксессуары</li></ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="5" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="3" y="10" width="18" height="5" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="3" y="17" width="18" height="4" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="M6 5.5h.01M6 12.5h.01M6 19h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <span class="service-card__num">05</span>
+            <h3>Серверы и СХД</h3>
+            <p>Серверы, системы хранения, ИБП и компоненты для надёжной ИТ-инфраструктуры.</p>
+            <ul><li>Tower и Rack</li><li>Системы хранения</li><li>ИБП и охлаждение</li></ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="2.5" width="16" height="19" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 6h8M8 10h8M8 14h8" stroke="currentColor" stroke-width="1.4" opacity=".7"/><path d="M9 18.5h.01M12 18.5h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <span class="service-card__num">06</span>
+            <h3>Стойки и сетевое</h3>
+            <p>Шкафы 19″, коммутаторы, маршрутизаторы и монтажные комплекты для серверной.</p>
+            <ul><li>Стойки 22–47U</li><li>Коммутаторы</li><li>Монтаж и кабель</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services-extra" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Наши услуги</span>
+            <h2 class="section-title">Не просто привезём — <span class="gradient-text">всё настроим</span></h2>
+          </div>
+          <p class="section-lead">Полный цикл: от подбора конфигурации до поддержки после установки.</p>
+        </div>
+
+        <div class="services__grid services__grid--four">
+          <article class="service-card service-card--compact reveal">
+            <div class="service-card__icon"><span>◎</span></div>
+            <h3>Подбор и расчёт</h3>
+            <p>Сравним модели, подберём аналоги и предложим несколько конфигураций под ваш бюджет.</p>
+          </article>
+          <article class="service-card service-card--compact reveal">
+            <div class="service-card__icon"><span>⇢</span></div>
+            <h3>Поставка и логистика</h3>
+            <p>Отгрузка со склада в Челябинске, доставка транспортными компаниями по всей России.</p>
+          </article>
+          <article class="service-card service-card--compact reveal">
+            <div class="service-card__icon"><span>⌘</span></div>
+            <h3>Монтаж и настройка</h3>
+            <p>Сборка техники, установка в стойки, прокладка сети и пусконаладка оборудования.</p>
+          </article>
+          <article class="service-card service-card--compact reveal">
+            <div class="service-card__icon"><span>◇</span></div>
+            <h3>Гарантия и поддержка</h3>
+            <p>Официальная гарантия производителя, оперативная замена и сервисное обслуживание.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Наши поставки</span>
+            <h2 class="section-title">Проекты, <span class="gradient-text">которые работают</span></h2>
+          </div>
+          <p class="section-lead">От оснащения рабочих мест до сборки серверной — с измеримым результатом.</p>
+        </div>
+
+        <div class="portfolio__grid">
+          <article class="case-card case-card--big reveal">
+            <div class="case-card__art case-art--office">
+              <div class="setup-mock">
+                <div class="setup-mock__screen"><span>РАБОЧЕЕ МЕСТО / 01</span></div>
+                <div class="setup-mock__screen setup-mock__screen--second"><span>120 мест</span></div>
+                <div class="setup-mock__keyboard"></div>
+                <div class="setup-mock__mouse"></div>
+                <div class="setup-mock__badge">ПК + монитор 27″ + периферия</div>
+              </div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__tags"><span>Компьютеры и мониторы</span><span>Срок 3 недели</span></div>
+              <h3>Офис на 120 рабочих мест</h3>
+              <p>Поставили и собрали рабочие места: системные блоки, мониторы 27″, периферия и сетевые шкафы.</p>
+              <div class="case-card__footer"><span><b>120</b> рабочих мест укомплектовано</span><span class="case-card__arrow">↗</span></div>
+            </div>
+          </article>
+
+          <article class="case-card reveal">
+            <div class="case-card__art case-art--server">
+              <div class="rack-mock">
+                <div class="rack-mock__top">42U / SERVER RACK</div>
+                <div class="rack-mock__unit"><i></i><i></i><span>Сервер 1</span></div>
+                <div class="rack-mock__unit"><i></i><i></i><span>Сервер 2</span></div>
+                <div class="rack-mock__unit"><i></i><span>СХД</span></div>
+                <div class="rack-mock__unit"><i></i><i></i><i></i><span>Коммутатор</span></div>
+                <div class="rack-mock__unit"><i></i><span>ИБП</span></div>
+              </div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__tags"><span>Стойки и серверы</span><span>Монтаж</span></div>
+              <h3>Серверная для логистического центра</h3>
+              <p>Собрали стойку 42U с серверами, СХД, ИБП и коммутаторами, провели пусконаладку.</p>
+              <div class="case-card__footer"><span><b>99,9%</b> доступность инфраструктуры</span><span class="case-card__arrow">↗</span></div>
+            </div>
+          </article>
+
+          <article class="case-card reveal">
+            <div class="case-card__art case-art--aio">
+              <div class="aio-mock"><div class="aio-mock__screen">РЕГИСТРАТУРА</div><div class="aio-mock__stand"></div></div>
+              <div class="aio-mock aio-mock--small"><div class="aio-mock__screen">КАССА</div><div class="aio-mock__stand"></div></div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__tags"><span>Моноблоки</span><span>Поставка по РФ</span></div>
+              <h3>Моноблоки для сети клиник</h3>
+              <p>60 моноблоков с периферией и креплениями для регистратур в пяти городах.</p>
+              <div class="case-card__footer"><span><b>60</b> моноблоков поставлено</span><span class="case-card__arrow">↗</span></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="portfolio__note reveal">
+          <p>Нужна похожая поставка для вашей компании?</p>
+          <a href="#contact" class="link-arrow">Пришлите спецификацию <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section process" id="process">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <div>
+            <span class="eyebrow">Как мы работаем</span>
+            <h2 class="section-title">Прозрачный процесс <span class="gradient-text">от заявки до поддержки</span></h2>
+          </div>
+          <p class="section-lead">Вы видите каждый этап: что подобрано, когда приедет и кто ответит за установку.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal"><span class="step__num">01</span><div class="step__line"></div><h3>Заявка и спецификация</h3><p>Узнаём задачи, количество и бюджет. При необходимости поможем составить список.</p></div>
+          <div class="step reveal"><span class="step__num">02</span><div class="step__line"></div><h3>Подбор и КП</h3><p>Предлагаем варианты с ценами, наличием и сроками. Согласуем итоговую конфигурацию.</p></div>
+          <div class="step reveal"><span class="step__num">03</span><div class="step__line"></div><h3>Договор и отгрузка</h3><p>Оформляем документы, резервируем технику на складе и организуем доставку.</p></div>
+          <div class="step reveal"><span class="step__num">04</span><div class="step__line"></div><h3>Монтаж и настройка</h3><p>Собираем технику, устанавливаем в стойки, подключаем сеть и проверяем работу.</p></div>
+          <div class="step reveal"><span class="step__num">05</span><div class="step__line"></div><h3>Поддержка и гарантия</h3><p>Остаёмся на связи: помогаем с настройками, заменой и развитием инфраструктуры.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container about__inner">
+        <div class="about__copy reveal">
+          <span class="eyebrow">Почему выбирают нас</span>
+          <h2 class="section-title">Поставщик, <span class="gradient-text">на которого можно полагаться</span></h2>
+          <p class="section-lead">Мы из Челябинска и поставляем технику по всей России. Работаем напрямую с вендорами, держим склад и не перекладываем заботы о монтаже на клиента.</p>
+          <div class="about__features">
+            <div class="feature"><span class="feature__icon">✦</span><div><h4>Прямые поставки</h4><p>Работаем напрямую с производителями и дистрибьюторами.</p></div></div>
+            <div class="feature"><span class="feature__icon">▤</span><div><h4>Свой склад</h4><p>Популярные позиции в наличии — отгрузка в день заказа.</p></div></div>
+            <div class="feature"><span class="feature__icon">◷</span><div><h4>Подбор под бюджет</h4><p>Несколько конфигураций с обоснованием и честными сроками.</p></div></div>
+            <div class="feature"><span class="feature__icon">◇</span><div><h4>Сервис после поставки</h4><p>Гарантия, замена, настройка и поддержка вашей инфраструктуры.</p></div></div>
+          </div>
+        </div>
+
+        <div class="about__visual reveal" aria-hidden="true">
+          <div class="about-card about-card--main">
+            <span class="about-card__label">Наш опыт</span>
+            <div class="about-circle"><span>15</span><small>лет<br/>поставок</small></div>
+            <div class="about-mini"><b>5 000+</b> позиций</div>
+            <div class="about-mini about-mini--right"><b>98%</b> в срок</div>
+          </div>
+          <div class="about-float">Челябинск <span>📍</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Отзывы клиентов</span>
+            <h2 class="section-title">Нам доверяют <span class="gradient-text">более 200 компаний</span></h2>
+          </div>
+        </div>
+        <div class="reviews__grid">
+          <article class="review-card reveal">
+            <div class="review-card__stars">★★★★★</div>
+            <p>«Прислали спецификацию на 80 мест, привезли и собрали быстрее, чем обещали. Все компьютеры и мониторы работают, замены не потребовалось.»</p>
+            <div class="review-card__author"><span class="avatar">АИ</span><div><strong>Алексей Иванов</strong><small>ИТ-директор производственной компании</small></div></div>
+          </article>
+          <article class="review-card reveal">
+            <div class="review-card__stars">★★★★★</div>
+            <p>«Стойку с серверами и ИБП собрали и подключили за два дня. Отдельно отметить грамотные рекомендации по коммутаторам — всё работает стабильно.»</p>
+            <div class="review-card__author"><span class="avatar avatar--green">МС</span><div><strong>Мария Соколова</strong><small>Руководитель ИТ, логистический центр</small></div></div>
+          </article>
+          <article class="review-card reveal">
+            <div class="review-card__stars">★★★★★</div>
+            <p>«Подобрали моноблоки для регистратур, доставили по городам и помогли с настройкой. Сотрудники довольны, а наш администратор наконец-то не занимается закупками в ручном режиме.»</p>
+            <div class="review-card__author"><span class="avatar avatar--purple">ДК</span><div><strong>Дмитрий Кузнецов</strong><small>Администратор сети клиник</small></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container faq__inner">
+        <div class="faq__intro reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 class="section-title">Частые <span class="gradient-text">вопросы</span></h2>
+          <p class="section-lead">Не нашли ответ? Напишите нам — ответим в течение рабочего дня и посчитаем стоимость.</p>
+          <a href="#contact" class="btn btn--ghost">Задать вопрос <span>→</span></a>
+        </div>
+        <div class="faq__list reveal">
+          <div class="faq-item">
+            <button class="faq-item__q" aria-expanded="false"><span>Какие сроки поставки?</span><i>+</i></button>
+            <div class="faq-item__a"><p>Позиции со склада отгружаем в течение 1–3 дней. Оборудование под заказ обычно привозим за 2–6 недель — точный срок зависит от производителя и объёма.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__q" aria-expanded="false"><span>Работаете с юридическими лицами и НДС?</span><i>+</i></button>
+            <div class="faq-item__a"><p>Да. Предоставляем полный пакет документов, работаем по безналичному расчёту и с НДС. Можем подготовить КП для тендера или закупочной комиссии.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__q" aria-expanded="false"><span>Можете подобрать технику под наш бюджет?</span><i>+</i></button>
+            <div class="faq-item__a"><p>Конечно. Обычно предлагаем 2–3 конфигурации: экономный, оптимальный и производительный вариант, с пояснением, где экономия оправдана, а где нет.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__q" aria-expanded="false"><span>Доставляете в другие города?</span><i>+</i></button>
+            <div class="faq-item__a"><p>Да, по всей России. Отправляем транспортными компаниями, при необходимости — со страховкой и доставкой до офиса. По Челябинску возим своим транспортом.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__q" aria-expanded="false"><span>Выполняете монтаж и настройку?</span><i>+</i></button>
+            <div class="faq-item__a"><p>Да: сборка техники, установка моноблоков и стоек, прокладка кабелей, настройка сети и серверов. Можем включить эти работы в счёт или заключить отдельный договор.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__q" aria-expanded="false"><span>Что с гарантией и поддержкой?</span><i>+</i></button>
+            <div class="faq-item__a"><p>Вся техника идёт с официальной гарантией производителя. Помогаем с обращениями в сервис, при необходимости предоставляем резервное оборудование на время ремонта.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / Contact -->
+    <section class="section contact" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__copy reveal">
+          <span class="eyebrow">Начнём?</span>
+          <h2 class="section-title">Нужна техника? <span class="gradient-text">Пришлите спецификацию</span></h2>
+          <p class="section-lead">Опишите задачу или пришлите список оборудования — вернём расчёт с наличием, ценами и сроками в течение рабочего дня.</p>
+          <div class="contact__direct">
+            <a href="tel:+73510000000" class="contact__direct-item"><span>📞</span><div><small>Телефон</small><strong>+7 (351) 000-00-00</strong></div></a>
+            <a href="mailto:hello@vertex-it.ru" class="contact__direct-item"><span>✉</span><div><small>Email</small><strong>hello@vertex-it.ru</strong></div></a>
+            <div class="contact__direct-item"><span>📍</span><div><small>Склад и офис</small><strong>Челябинск, Россия</strong></div></div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="contact-form__head"><h3>Запросить расчёт</h3><span class="pulse-dot"></span></div>
+          <label class="field"><span>Ваше имя</span><input type="text" name="name" placeholder="Как к вам обращаться" required /></label>
+          <label class="field"><span>Телефон или email</span><input type="text" name="contact" placeholder="+7 (999) 000-00-00" required /></label>
+          <label class="field"><span>Что нужно?</span><textarea name="message" rows="3" placeholder="Например: 40 компьютеров, 40 мониторов 27″, доставка в Челябинск"></textarea></label>
+          <label class="checkbox"><input type="checkbox" name="agreement" checked /><span class="checkbox__box"></span><span>Согласен на обработку персональных данных</span></label>
+          <button type="submit" class="btn btn--primary btn--full">Отправить запрос <span>→</span></button>
+          <p class="form-note">Нажимая кнопку, вы даёте согласие на обработку персональных данных.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#top" class="logo">
+            <span class="logo__mark" aria-hidden="true">
+              <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L22 36L38 9" stroke="url(#lg2)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="22" cy="9" r="3.5" fill="#43E8C0"/><defs><linearGradient id="lg2" x1="6" y1="9" x2="38" y2="36" gradientUnits="userSpaceOnUse"><stop stop-color="#8B6CFF"/><stop offset="1" stop-color="#43E8C0"/></linearGradient></defs></svg>
+            </span>
+            <span class="logo__text">ВЕРТЕКС<span>-ИТ</span></span>
+          </a>
+          <p>Поставки компьютерной техники.<br />Челябинск · вся Россия.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Навигация</h4>
+          <a href="#catalog">Каталог</a><a href="#services">Услуги</a><a href="#portfolio">Проекты</a><a href="#faq">Вопросы</a>
+        </div>
+        <div class="footer__col">
+          <h4>Контакты</h4>
+          <a href="tel:+73510000000">+7 (351) 000-00-00</a>
+          <a href="mailto:hello@vertex-it.ru">hello@vertex-it.ru</a>
+          <span>Челябинск, ул. Примерная, 1</span>
+        </div>
+        <div class="footer__col">
+          <h4>Мы в сети</h4>
+          <a href="#" onclick="return false;">Telegram</a><a href="#" onclick="return false;">WhatsApp</a><a href="#" onclick="return false;">VK</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Вертекс-ИТ. Все права защищены.</span>
+        <span>Сделано с вниманием к деталям ✦</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="to-top" id="toTop" aria-label="Наверх">↑</button>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
